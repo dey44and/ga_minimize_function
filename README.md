@@ -1,1 +1,0 @@
-# Implementation of a genetic algorithm to minimize a function
