@@ -81,7 +81,8 @@ std::vector<std::vector<float> > PopulationGenerator::breed_parents(const std::v
                     first_child.push_back(parents[j][k]);
                     second_child.push_back(parents[i][k]);
                 }
-
+                childs.push_back(first_child);
+                childs.push_back(second_child);
             } else {
                 childs.push_back(parents[i]);
                 childs.push_back(parents[j]);

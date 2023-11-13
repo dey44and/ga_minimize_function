@@ -18,7 +18,7 @@ int main() {
     float omega = 2 * PI;
     // probabilities parameters
     const float cross_probability = 0.9;
-    const float mutation_probability = 0.1;
+    const float mutation_probability = 0.02;
 
     // generate a random population initially
     auto population = PopulationGenerator::generate(pop_size, chromo_size, d, &RandGenerator::generate_array);

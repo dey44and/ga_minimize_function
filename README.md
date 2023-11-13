@@ -1,1 +1,1 @@
-# ga_minimize_function
+# Implementation of a genetic algorithm to minimize a function
